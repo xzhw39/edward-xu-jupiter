@@ -1,0 +1,170 @@
+/* Global */
+* {
+    font-family: "Arial", sans-serif;
+
+}
+
+/* Header navigation */
+.headerNav {
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1%;
+    color: purple;
+}
+
+.headerNav a {
+    text-decoration: none;
+    color: purple;
+}
+
+/* Timer */
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+.timer div {
+    padding: 0px 5px;
+}
+
+/* Quiz Card Style */
+.container {
+    margin: auto;
+    padding: 2%;
+    background-color: #fff;
+    border: 5px solid hidden;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    width: 50%;
+    height: 50%;
+    display: grid;
+}
+
+/* Start Page */
+#textBoxContainer {
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Questions page */
+#questionBox {
+    font-size: 1.5rem;
+    margin: 1%;
+}
+
+.quizQuestions {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+}
+
+/* Question selection results */
+
+#correct {
+    font-size: 1.5rem;
+    margin: 1%;
+    border-top: black solid;
+    font-style: italic;
+    color: green;
+}
+
+#wrong {
+font-size: 1.5rem;
+margin: 1%;
+border-top: black solid;
+font-style: italic;
+color: red;
+}
+
+
+
+/* Submit Form */
+.submitForm {
+    margin: auto;
+    padding: 2%;
+    background-color: lightblue;
+    border: 5px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitForm h1 {
+    font-size: 2rem;
+    margin: 1%;
+}
+
+#highScore h1 {
+    font-size: 2rem;
+    margin: 1%;
+}
+
+/* Score list */
+
+#scoreList {
+    font-size: 1.4rem;
+    margin: 2%;
+    background-color: yellow;
+    width: 60vh;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 5% 0%;
+}
+
+.name {
+    font-size: 1.54rem;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin: 2%;
+}
+
+
+/* Buttons */
+.button {
+    border:3px solid hidden;
+    border-radius:5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    margin: 1%;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0% 5%;
+}
+
+.backOrClear {
+    display: flex;
+}
+
+/* Hide */
+
+.hide {
+    display: none;
+}
