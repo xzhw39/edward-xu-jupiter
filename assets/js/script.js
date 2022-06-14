@@ -31,10 +31,10 @@ function hour() {
         console.log(typeof (block));
 
         // Boolean logic for current hour
-        if ( block < (currentHour-9)) {
+        if ( block < (currentHour)) {
             $(this).addClass('past')
 
-        } else if (block === (currentHour-9)) {
+        } else if (block === (currentHour)) {
             $(this).removeClass('past')
             $(this).addClass('present')
         } else {
